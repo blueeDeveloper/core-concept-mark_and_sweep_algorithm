@@ -1,6 +1,7 @@
 JavaScript Memory Management: Mark-and-Sweep
 A comprehensive guide to understanding how JavaScript handles memory, the mechanics of the Mark-and-Sweep algorithm, and how it applies to modern frameworks like React.
 
+
 🚀 Overview
 JavaScript is a high-level language that manages memory automatically via Garbage Collection (GC). The primary goal of the GC is to identify "unreachable" memory and reclaim it to prevent leaks and optimize performance.
 
@@ -15,6 +16,7 @@ The engine scans the memory and "sweeps" away any object that was not marked. Th
 
 🚩 Key Concept: Reachability
 Unlike the older Reference Counting method, Mark-and-Sweep handles Circular References perfectly. If two objects point to each other but neither can be reached from the Root, they are both deleted.
+
 
 <img width="646" height="157" alt="Screenshot 2026-02-23 at 10 37 24 PM" src="https://github.com/user-attachments/assets/db62497a-e096-459d-928e-6dc58bae0a6b" />
 
