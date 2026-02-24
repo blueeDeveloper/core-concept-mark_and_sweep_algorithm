@@ -53,6 +53,7 @@ Forgotten setInterval timers.
 
 Closures capturing large variables that are never released.
 
+
 🛠️ Debugging Tools
 To identify memory issues, use the Chrome DevTools Memory Tab:
 
